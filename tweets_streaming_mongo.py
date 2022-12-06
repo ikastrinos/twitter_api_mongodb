@@ -11,7 +11,6 @@ MONGO_HOST= 'mongodb://localhost:27017/vaccinedb'  # The first step required to 
  
 WORDS = ['moderna','Moderna', 'pfizer','Pfizer', 'johnson and johnson', 'Johnson and Johnson']   # Next, the WORDS variable is the part where you put in all of the keywords that you want collected.
 
-# For example, if you want to find out anytime somebody says something about Starbucks you would want to include the following keywords
  
 CONSUMER_KEY= '' # Type in your consumer key from the twitter api here
 CONSUMER_SECRET= '' # Type in the consumer secret key from the twitter api here
