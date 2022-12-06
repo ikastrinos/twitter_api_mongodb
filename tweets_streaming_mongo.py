@@ -7,7 +7,7 @@ from pymongo import MongoClient
  
 MONGO_HOST= 'mongodb://localhost:27017/vaccinedb'  # The first step required to run this program is you need to make a path on your computer
 # as well as a database in mongo DB in order to store the scraped tweets.
-#For example, if you wanted to monitor what people are saying about
+#For example, if you wanted to monitor what people are saying about specific vaccine companies:
  
 WORDS = ['moderna','Moderna', 'pfizer','Pfizer', 'johnson and johnson', 'Johnson and Johnson']   # Next, the WORDS variable is the part where you put in all of the keywords that you want collected.
 
